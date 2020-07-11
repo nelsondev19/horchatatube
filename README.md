@@ -1,6 +1,8 @@
 # horchataTube
 
-Ejemplo de automatización de anuncios de **Play Store** para **HorchataTube**
+<p align="center">
+  <h2>Ejemplo de automatización de anuncios de Play Store para HorchataTube</h2>
+</p>
 
 <p align="center">
   <img src="horchatatube.png" alt="horchataTube"/>
