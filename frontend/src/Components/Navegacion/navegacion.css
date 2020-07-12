@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+}
+nav {
+  background-color: rgb(255, 255, 255);
+  transition: 0.8s;
+  display: grid;
+  grid-template-columns: 5% 95%;
+}
+
+nav:hover {
+  transition: 0.5s;
+  background-color: #f0ce03;
+  color: white;
+}
+
+.horchata-tube {
+  font-size: 30px;
+  display: inline-block;
+  margin-top: 12px;
+}

@@ -1,8 +1,13 @@
-import React from 'react';
-
+import React, {Fragment} from 'react';
+import Navegacion from "./Components/Navegacion/Navegacion";
+import "./index.css"
+import ReproductorView from "./views/ReproductorView/ReproductorView";
 function App() {
   return (
-    <h1>Hola</h1>
+    <Fragment>
+      <Navegacion/>
+      <ReproductorView/>
+    </Fragment>
   );
 }
 
