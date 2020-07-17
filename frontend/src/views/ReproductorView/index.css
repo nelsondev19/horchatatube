@@ -1,7 +1,4 @@
-body {
-  background-color: rgb(255, 255, 255);
-  font-family: sans-serif;
-}
+
 .grid-display {
   display: grid;
   grid-template-columns: 67% 30%;

@@ -1,4 +1,6 @@
 import React, { Fragment } from "react";
+import googlePlay from "../../imagenes/google.svg";
+import Anuncio from "../../imagenes/imagen-cortada.png";
 
 function ReproductorVideo() {
   return (
@@ -16,6 +18,13 @@ function ReproductorVideo() {
         </h1>
         <p>
           <b>30,967 vistas•14 sep. 2017</b>
+        </p>
+        <p align="center">
+          <img src={googlePlay} alt="Google Play" height="224px" width="224px"/>
+        </p>
+
+        <p align="center">
+          <img src={Anuncio} alt="Anuncio" height="224px" width="524px"/>
         </p>
       </div>
     </Fragment>

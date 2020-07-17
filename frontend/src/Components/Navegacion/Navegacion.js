@@ -6,7 +6,7 @@ function Navegacion() {
   return (
     <nav>
         <div>
-          <img src={horchataLogo} alt="" srcSet height="50px" width="50px" />
+          <img src={horchataLogo} alt="" height="50px" width="50px" />
         </div>
         <div>
           <h3 className="horchata-tube">HorchataTube</h3>
