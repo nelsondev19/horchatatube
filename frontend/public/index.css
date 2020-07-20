@@ -1,0 +1,70 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  #myVideo {
+    height: 100%;
+    width: 98%
+  }
+  
+  body{
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+  }
+  
+  
+  .grid-cards-videos{
+      display: grid;
+      grid-template-columns: 50% 50%;
+  }
+  
+  .title-card-video{
+      font-size: 15px;
+      margin-left: 10px;
+  }
+  
+  .horchata-tube{
+    font-size: 30px; 
+    display: inline-block; 
+    margin-top: 12px;
+    margin-left: 30px;
+  }
+  
+  @media(max-width: 700px){
+    .grid-display {
+      display: grid;
+      grid-template-columns: 100%;
+    } 
+    .title-video{
+      font-size: 20px;
+    }
+    .description-video{
+      font-size: 15px;
+    }
+    .img-auncio{
+      height:200px;
+      width:150px;
+    }
+  }
+
+  @media(max-width: 400px){
+    .img-anuncio{
+      height: 200px;
+      width: 330px;
+    }
+  }
+  
+  @media(min-width: 1000px) and (max-width: 3000px) {
+    .grid-display {
+      display: grid;
+      grid-template-columns: 70% 30%;
+    } 
+    .title-video{
+      font-size: 20px;
+    }
+    .description-video{
+      font-size: 15px;
+    }
+  }

@@ -1,4 +1,4 @@
-#!/home/nelson/Escritorio/horchatatube/venv/bin/python3
+#!/home/nelson/Escritorio/horchatatube/backend/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
